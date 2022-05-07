@@ -1,0 +1,8 @@
+
+/build/
+/cmake-build-debug/
+.idea
+/Release
+/Debug
+/Package
+/.vs
