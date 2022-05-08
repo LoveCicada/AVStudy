@@ -65,6 +65,7 @@ message(SATUS " lib out path: ${LIBRARY_OUTPUT_PATH}")
 set(BINARY_PREFIX "CXE")
 
 add_subdirectory("./remuxing")
+add_subdirectory("./ffplay")
 
 
 

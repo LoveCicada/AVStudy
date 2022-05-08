@@ -14,5 +14,12 @@ include_directories(${INCLUDE_PATH})
 target_link_directories(remuex PRIVATE "${LIBRARY_OUTPUT_PATH}")
 
 # 链接对应的依赖库
-target_link_libraries(remuex PRIVATE avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib postproc.lib swresample.lib swscale.lib)
+target_link_libraries(remuex PRIVATE avcodec 
+                     avdevice 
+                     avfilter 
+                     avformat 
+                     avutil 
+                     postproc 
+                     swresample 
+                     swscale)
 
