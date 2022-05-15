@@ -14,3 +14,17 @@ git clone git@github.com:microsoft/vcpkg.git
 ```bash
 .\vcpkg.exe install ffmpeg:x64-windows
 ```
+
+3. ffmpeg动态库生成目录
+```
+dll
+\vcpkg\installed\x64-windows
+
+pdb
+vcpkg\buildtrees\ffmpeg\x64-windows-rel
+```
+
+4. 安装ffplay
+```bash
+.\vcpkg.exe install ffmpeg[ffplay]:x64-windows
+```
