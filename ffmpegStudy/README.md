@@ -1,5 +1,17 @@
 ### ffmpeg源码音视频同步分析
 
+### ffplay主要流程
+>   
+    1. avformat_alloc_context()
+    2. avformat_open_input()
+    3. avformat_find_stream_info()
+    4. avcodec_parameters_to_context()
+    5. avcodec_find_decoder()
+    6. av_read_frame()
+    7. avcodec_send_packet()
+    8. avcodec_receive_frame()
+
+
 ### 4.2 PTS/DTS/解码过程
 ![视频码流分析](./img/videoCodeStreamAnalyze.png)
 
