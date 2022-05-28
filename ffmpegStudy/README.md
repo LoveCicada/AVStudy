@@ -11,6 +11,9 @@
     7. avcodec_send_packet()
     8. avcodec_receive_frame()
 
+### read_thread
+
+
 
 ### 4.2 PTS/DTS/解码过程
 ![视频码流分析](./img/videoCodeStreamAnalyze.png)
