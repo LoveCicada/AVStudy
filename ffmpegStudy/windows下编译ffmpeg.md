@@ -28,3 +28,6 @@ vcpkg\buildtrees\ffmpeg\x64-windows-rel
 ```bash
 .\vcpkg.exe install ffmpeg[ffplay]:x64-windows
 ```
+
+- 通过克隆SMP工程编译
+[vs2019编译ShiftMediaProject](https://blog.csdn.net/u014552102/article/details/121781348)
