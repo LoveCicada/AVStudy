@@ -9,6 +9,10 @@
 
 [OpenGL3.3 document](https://registry.khronos.org/OpenGL/specs/gl/glspec33.core.pdf)
 
+[使用glew和glad 新建窗口](https://www.cnblogs.com/keguniang/p/9897420.html)
+
+[OpenGL之glut、glfw、glew、glad等库之间的关系](https://blog.csdn.net/HHT0506/article/details/108919621)
+
 
 
 - video
