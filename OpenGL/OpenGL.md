@@ -13,11 +13,19 @@
 
 [OpenGL之glut、glfw、glew、glad等库之间的关系](https://blog.csdn.net/HHT0506/article/details/108919621)
 
+[openGL坐标系 ](https://www.cnblogs.com/keguniang/p/9886605.html)
 
+[OpenGL uniform的用法](https://blog.csdn.net/qq_44800780/article/details/101864074)
 
 - video
 
 [OpenGL入门和视频绘制](https://www.bilibili.com/video/BV1uB4y1u7eB/?spm_id_from=333.337.search-card.all.click&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
+
+[Learn OpenGL的视频教程(中英字幕)](https://www.bilibili.com/video/BV1Sv411g7pp/?spm_id_from=333.337.search-card.all.click&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
+
+[计算机图形学OpenGL：1.1、状态机-上下文-对象](https://www.bilibili.com/video/BV1GS4y117pX/?spm_id_from=333.788.recommend_more_video.1&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
+
+[OpenGL，Qt实现：1入门篇](https://www.bilibili.com/video/BV1UL411W71w/?spm_id_from=333.999.0.0&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
 
 - code
 

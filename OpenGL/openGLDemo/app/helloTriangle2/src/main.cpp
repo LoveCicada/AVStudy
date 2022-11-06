@@ -1,6 +1,6 @@
 
 /*
-* @see https://learnopengl-cn.readthedocs.io/zh/latest/01%20Getting%20started/03%20Hello%20Window/
+* @see https://learnopengl-cn.readthedocs.io/zh/latest/01%20Getting%20started/04%20Hello%20Triangle/
 * @see https://learnopengl.com/Getting-started/Hello-Window
 * @see https://learnopengl.com/code_viewer.php?code=getting-started/hellotriangle2
 */
@@ -17,7 +17,7 @@ using namespace std;
 constexpr GLuint WIDTH = 800, HEIGHT = 600;
 
 //! Shaders
-constexpr GLchar* vertexShaderSource = "#version 300 core\n"
+constexpr GLchar* vertexShaderSource = "#version 330 core\n"
 "layout (location = 0) in vec3 position;\n"
 "void main()\n"
 "{\n"
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
     GLFWwindow* pWindow = glfwCreateWindow(800, 600, "LearnOpenGL", nullptr, nullptr);
     if (!pWindow)
     {
-        cout << "Failed to create GLFW window" << endl;
+        cout << "line: " << __LINE__ << " Failed to create GLFW window" << endl;
         glfwTerminate();
         return -1;
     }
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
-        std::cout << "Failed to initialize GLAD" << std::endl;
+        cout << "line: " << __LINE__ << " Failed to initialize GLAD" << std::endl;
         return -1;
     }
 
@@ -91,8 +91,8 @@ int main(int argc, char *argv[])
     if (!nRet)
     {
         glGetShaderInfoLog(vertextShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n"
-            << infoLog << std::endl;
+        cout << "line: " << __LINE__ << " ERROR::SHADER::VERTEX::COMPILATION_FAILED\n"
+            << infoLog << endl;
     }
 
     //! Fragment shader
@@ -105,8 +105,8 @@ int main(int argc, char *argv[])
     if (!nRet)
     {
         glGetShaderInfoLog(fragmentShader, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n"
-            << infoLog << std::endl;
+        cout << "line: " << __LINE__ << " ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n"
+            << infoLog << endl;
     }
 
     //! Link shaders
@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
     if (!nRet)
     {
         glGetShaderInfoLog(shaderProgram, 512, NULL, infoLog);
-        std::cout << "ERROR::SHADER::PROGRAM::COMPILATION_FAILED\n"
-            << infoLog << std::endl;
+        cout << "line: " << __LINE__ << " ERROR::SHADER::PROGRAM::COMPILATION_FAILED\n"
+            << infoLog << endl;
     }
     glDeleteShader(vertextShader);
     glDeleteShader(fragmentShader);
