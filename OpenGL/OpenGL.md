@@ -17,6 +17,16 @@
 
 [OpenGL uniform的用法](https://blog.csdn.net/qq_44800780/article/details/101864074)
 
+[【OpenGL】OpenGL入门之纹理（Texture）](https://blog.csdn.net/YangMax1/article/details/123241637)
+
+[OpenGL——调试软件RenderDoc的使用](https://blog.csdn.net/qq_25065595/article/details/106531452)
+
+[RenderDoc图形调试器详细使用教程(基于DirectX11)](https://www.cnblogs.com/X-Jun/p/16075728.html) 
+
+[RenderDoc](https://renderdoc.org/)
+
+[OpenGLES](https://www.jianshu.com/nb/2135411)
+
 - video
 
 [OpenGL入门和视频绘制](https://www.bilibili.com/video/BV1uB4y1u7eB/?spm_id_from=333.337.search-card.all.click&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
@@ -30,5 +40,8 @@
 - code
 
 [LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL)
+
+[LearnOpenGLES](https://github.com/loyinglin/LearnOpenGLES)
+
 
 
