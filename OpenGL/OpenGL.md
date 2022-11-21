@@ -27,6 +27,14 @@
 
 [OpenGLES](https://www.jianshu.com/nb/2135411)
 
+- book
+
+[《计算机图形学应用基础(CD) 》作者彭群生等 科学出版社](https://item.jd.com/10045969103049.html)
+
+[计算机图形学(OpenGL版)第3版  作者Francis S Hill 翻译 胡事民等](https://item.jd.com/10049679069296.html)
+
+[OpenGL超级宝典(第5版)](https://item.jd.com/65796496728.html)
+
 - video
 
 [OpenGL入门和视频绘制](https://www.bilibili.com/video/BV1uB4y1u7eB/?spm_id_from=333.337.search-card.all.click&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
@@ -36,6 +44,10 @@
 [计算机图形学OpenGL：1.1、状态机-上下文-对象](https://www.bilibili.com/video/BV1GS4y117pX/?spm_id_from=333.788.recommend_more_video.1&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
 
 [OpenGL，Qt实现：1入门篇](https://www.bilibili.com/video/BV1UL411W71w/?spm_id_from=333.999.0.0&vd_source=3c71e3397ca331aa190dd5e2f3a7c122)
+
+[入门](https://www.bilibili.com/video/BV1X7411F744)
+
+[进阶](https://www.bilibili.com/video/BV1YK4y1T7yY)
 
 - code
 
