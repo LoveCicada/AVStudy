@@ -27,6 +27,14 @@
 
 [OpenGLES](https://www.jianshu.com/nb/2135411)
 
+[Mouse Picking with Ray Casting](https://antongerdelan.net/opengl/raycasting.html)
+
+[OpenGL 射线选择中射线的生成过程](https://yulinxx.blog.csdn.net/article/details/78025532?spm=1001.2101.3001.6650.3&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-3-78025532-blog-49802971.pc_relevant_aa2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-3-78025532-blog-49802971.pc_relevant_aa2&utm_relevant_index=4)
+
+[OpenGL—射线拾取（ray pick）](https://blog.csdn.net/wind_hzx/article/details/40016619)
+
+[OpenGL—坐标变换](https://blog.csdn.net/wind_hzx/article/details/9568563)
+
 - book
 
 [《计算机图形学应用基础(CD) 》作者彭群生等 科学出版社](https://item.jd.com/10045969103049.html)
