@@ -35,6 +35,20 @@
 
 [OpenGL—坐标变换](https://blog.csdn.net/wind_hzx/article/details/9568563)
 
+[OpenGL 基础概念（2）：EGL，OpenGL 与设备的桥梁](https://mp.weixin.qq.com/s/ob9UID8xDazxcnYm_-dY8A)
+
+[OpenGL 基础概念（3）：各种 O 之 VBO、EBO、VAO](https://mp.weixin.qq.com/s/KYj4H1BhGd9YmhLHjIinbw)
+
+[OpenGL 基础概念（4）：各种 O 之 FBO](https://mp.weixin.qq.com/s/6AUoejRK0GOVsLzWV-w5kw)
+
+- detail doc
+
+[[OpenGL] 视图矩阵（View）矩阵与glm::lookAt函数源码解析](https://blog.csdn.net/weixin_44179561/article/details/124149297)
+
+
+
+
+
 - book
 
 [《计算机图形学应用基础(CD) 》作者彭群生等 科学出版社](https://item.jd.com/10045969103049.html)
