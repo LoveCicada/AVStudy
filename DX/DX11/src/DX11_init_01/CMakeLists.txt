@@ -13,6 +13,8 @@ if(WIN32)
     set(WINRC ${CMAKE_CURRENT_SOURCE_DIR}/resource/rc)
     add_executable(${TARGET_NAME} WIN32 ${SRC_FILES} ${WINRC}/app.rc)
     set_target_properties(${TARGET_NAME} PROPERTIES LINK_FLAGS_RELEASE "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+    # 指定C++ 异常处理程序try()catch的展开语义
+    set_target_properties(${TARGET_NAME} PROPERTIES COMPILE_FLAGS "/EHsc")
     target_compile_definitions(${TARGET_NAME} PRIVATE
         NOMINMAX
     )

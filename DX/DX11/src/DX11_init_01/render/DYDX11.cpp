@@ -1,5 +1,6 @@
 
 #include "render/DYDX11.h"
+#include "log/VXLog.h"
 #include <iterator>
 #include <DirectXColors.h>
 
@@ -64,6 +65,8 @@ bool DYDX11::InitDevice()
 		// to do
 		return false;
 	}
+
+	LOGS("InitDevice success");
 
 	return bRet;
 }
@@ -165,6 +168,7 @@ bool DYDX11::CreateD3DDevice()
 	if (FAILED(hr))
 	{
 		// 
+		LOG("D3D11CreateDevice fail");
 		return false;
 	}
 
@@ -180,7 +184,15 @@ bool DYDX11::CreateD3DDevice()
 			if (SUCCEEDED(hr))
 			{
 				hr = adapter->GetParent(__uuidof(IDXGIFactory1), reinterpret_cast<void**>(&dxgiFactory));
+				if (FAILED(hr))
+				{
+					LOG("GetParent fail");
+				}
 				adapter->Release();
+			}
+			else
+			{
+				LOG("GetAdapter fail");
 			}
 			dxgiDevice->Release();
 		}
@@ -188,6 +200,7 @@ bool DYDX11::CreateD3DDevice()
 	if (FAILED(hr))
 	{
 		// to do
+		LOG("");
 		return false;
 	}
 
@@ -226,8 +239,16 @@ bool DYDX11::CreateD3DDevice()
 			if (FAILED(hr))
 			{
 				// to do
+				//LOGS("");
+				LOGS("m_pSwapChain1 QueryInterface fail");
 				return false;
 			}
+		}
+		else
+		{
+			// to do
+			LOGS("CreateSwapChainForHwnd fail");
+			return false;
 		}
 
 		dxgiFactory2->Release();
