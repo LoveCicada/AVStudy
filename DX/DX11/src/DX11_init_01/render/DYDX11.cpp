@@ -304,6 +304,7 @@ bool DYDX11::CreateRenderObj()
 		return false;
 	}
 
+	// 将后备缓冲区绑定到渲染目标视图
 	hr = m_pD3DDevice->CreateRenderTargetView(pBackBuffer, nullptr, &m_pRenderTargetView);
 	if (FAILED(hr))
 	{

@@ -44,8 +44,11 @@ private:
 
 	D3D_DRIVER_TYPE         m_D3DDriverType = D3D_DRIVER_TYPE_NULL;
 	D3D_FEATURE_LEVEL       m_D3DFeatureLevel = D3D_FEATURE_LEVEL_11_0;
+	// 显卡, 用于创建资源, 例如: 资源类(ID3D11Resource, 包含纹理和缓冲区) 视图类 着色器
 	ID3D11Device*			m_pD3DDevice = nullptr;
 	ID3D11Device1*			m_pD3DDevice1 = nullptr;
+	// 渲染管线, 负责渲染和计算工作, 需要绑定来自与它关联的D3D设备所创建的各种资源、视图和着色器才能运转;
+	// 还负责对资源的直接读写操作
 	ID3D11DeviceContext*	m_pImmediateContext = nullptr;
 	ID3D11DeviceContext1*	m_pImmediateContext1 = nullptr;
 	IDXGISwapChain*			m_pSwapChain = nullptr;

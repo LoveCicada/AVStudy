@@ -44,7 +44,7 @@ if(CMAKE_BUILD_TYPE MATCHES "Debug")
 	# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}" -g)
 else()
 	set(CMAKE_BUILD_TYPE "Release")
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -s -Wl,-x")
+	# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -s -Wl,-x")
 endif()
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
 message(STATUS "CXX Flags: ${CMAKE_CXX_FLAGS}")
@@ -66,6 +66,7 @@ set(BINARY_PREFIX "CXE")
 
 add_subdirectory("./remuxing")
 # add_subdirectory("./ffplay")
+add_subdirectory("./ffmpegBuffer")
 
 
 

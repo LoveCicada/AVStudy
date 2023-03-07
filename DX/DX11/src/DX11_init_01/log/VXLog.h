@@ -20,7 +20,6 @@ public:
 	void Write(std::string& str, int nLine, std::string& strFun);
 	void Write(const char* c, int nLine, std::string& strFun);
 	void Write(const char* c, int nLine, const char* strFun);
-	//void Write(const char* c, std::string& strLine, const char* strFun)
 
 private:
 	VXLog();
