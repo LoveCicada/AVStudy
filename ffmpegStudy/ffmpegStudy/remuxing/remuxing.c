@@ -43,6 +43,9 @@ static void log_packet(const AVFormatContext *fmt_ctx, const AVPacket *pkt, cons
            pkt->stream_index);
 }
 
+/*
+* @example remuxing.exe test2.mp4 test2.flv
+*/
 int main(int argc, char **argv)
 {
     AVOutputFormat *ofmt = NULL;
