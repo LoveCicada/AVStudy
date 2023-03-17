@@ -78,6 +78,9 @@ static void fill_samples(double *dst, int nb_samples, int nb_channels, int sampl
     }
 }
 
+/*
+* @brief resampling_audio.exe test.pcm
+*/
 int main(int argc, char **argv)
 {
     int64_t src_ch_layout = AV_CH_LAYOUT_STEREO, dst_ch_layout = AV_CH_LAYOUT_SURROUND;
