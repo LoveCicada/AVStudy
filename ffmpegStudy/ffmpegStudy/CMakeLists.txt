@@ -68,6 +68,7 @@ add_subdirectory("./remuxing")
 # add_subdirectory("./ffplay")
 add_subdirectory("./ffmpegBuffer")
 add_subdirectory("./resampling_audio")
+add_subdirectory("./scaling_video")
 
 
 
