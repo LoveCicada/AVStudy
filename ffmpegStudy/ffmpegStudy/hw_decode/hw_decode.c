@@ -148,7 +148,8 @@ static int decode_write(AVCodecContext *avctx, AVPacket *packet)
 
 /*
 * @breif hw_decode.exe d3d11va test2.mp4 test2.yuv
-* @see ffplay -f rawvideo -pixel_format yuv420p -video_size 960x540 ./test2.yuv
+* @see #ffplay -f rawvideo -pixel_format yuv420p -video_size 960x540 ./test2.yuv
+* @see ffplay -f rawvideo -pixel_format nv12 -video_size 960x540 ./test3.yuv
 */
 int main(int argc, char *argv[])
 {
@@ -226,6 +227,12 @@ int main(int argc, char *argv[])
         return -1;
     }
 
+    /*
+    * @brief w+以纯文本方式读写，而wb+是以二进制方式进行读写
+    * Bug: 播放生成的yuv数据，画面异常
+    * Q: 文件未按二进制文件写
+    * S: w+ 改为 wb+
+    */
     /* open the file to dump raw data */
     output_file = fopen(argv[3], "w+");
 
