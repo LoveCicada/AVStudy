@@ -70,5 +70,6 @@ add_subdirectory("./ffmpegBuffer")
 add_subdirectory("./resampling_audio")
 add_subdirectory("./scaling_video")
 add_subdirectory("./hw_decode")
+add_subdirectory("./mp4Muxer")
 
 
